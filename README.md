@@ -1,5 +1,8 @@
 # simple_pool
-A very simple pooling service built to work with mariasql. 
+A very simple pooling service built to work with mariasql.
+
+
+Was created for an isolated use-case where using acquire + queuing connections in generic-pool wasn't as optimal as just sending them to the next connection, even if its busy.
 
 ```javascript
 var simple_pool = require('simple_pool');

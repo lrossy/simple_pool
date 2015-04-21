@@ -4,9 +4,6 @@
   "description": "",
   "author": "",
   "license": "ISC",
-  "scripts":{
-    "start":"node app.js"
-  },
   "main": "./index",
   "dependencies": {
     "mariasql": "latest",
